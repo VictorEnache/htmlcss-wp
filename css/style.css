@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+body{
+    background-color: white;
+    width: 80%;
+    font-family: arial;
+    margin: auto;
+}
+
+.site_header{
+    margin-bottom: 2%;
+}
+
+.logo{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    width: 11rem;
+    border-right: 1px solid rgb(167, 160, 160); 
+}
+
+.logo>img{
+    width: 10rem;
+}
+
+.link{
+    float: left;
+    height: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    color: rgb(160, 160, 160);
+}
+
+main{
+    position: relative;
+}
+
+section{
+    margin-bottom: 2%;
+}
+
+.hero_img{
+    border-radius: 1rem;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+     height: 30rem;
+}
+
+.opaque{
+    height: 30rem;
+    background-color: rgba(0,0,0,0.2);
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 1rem;
+}
+
+.opaque>div{
+    position: absolute;
+    bottom: 4rem;
+    left: 3rem;
+    right: 45%;
+    color: white;
+}
+
+.opaque>div>h2{
+    font-size: 2rem;
+    font-weight: 100;
+}
+
+.leadership{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2%;
+}
+
+.leadership>h2{
+    font-size: 2.5rem;
+}
+
+.leadership>h4{
+    font-weight: 100;
+    color: rgb(160, 160, 160);
+}
+
+.content{
+
+}
+
+.section_content{
+    float: left;
+    background-color: aquamarine;
+}
+
+main.section_content{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+aside.section_content{
+    width: 20%;
+    height: 30rem;
+}
+
+main.section_content{
+    width: 50%;
+    height: 30rem;
+}
+
+.img{
+    height: 14rem;
+    background-color: black;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.img_left{
+    background-image: url(../img/img-1.jpg);
+}
+
+.img_center{
+    background-image: url(../img/banner-2.jpg);
+
+}
+
+.text{
+height: 15rem;
+background-color: coral;
+
+}
+
+footer{
+    height: 5rem;
+    background-color: brown;
+}
